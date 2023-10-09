@@ -1,0 +1,99 @@
+
+
+.caro{
+    width: 90%;
+    height: 550px;
+    /* background-color: yellow; */
+}
+.caro-div{
+    width: 100%;
+    height: 500px;
+    /* background-color: violet; */
+    z-index: 0;
+    display: flex;
+    align-items: center;
+}
+.caro-img{
+    width: 100%;
+    height: 450px;   
+    background-color: var(--primary-color);
+    
+    
+}
+.caro-img img{
+    width: 100%;
+    height: 450px ;
+    position: relative;
+    opacity: 0;
+
+}
+
+.shopnow{
+    
+    top: 410px;
+   
+    width: 35%;
+    height: 40px;
+    /* border: 1px solid var(--secondary-color); */
+    font-family: ogg;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.shopnow1{
+    top: 410px;
+   
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--secondary-color);
+    font-family: ogg;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.caro-img button:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+.red{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    background-color:var(--primary-color);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.red h1{
+    color: var(--secondary-color);
+    font-family: ogg;
+}
+.red p{
+    color: var(--secondary-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.primg{
+    width: 44%;
+    height: 450px;
+    position: absolute;
+    /* background-color:rgb(230, 156, 156); */
+    z-index: 1;
+    margin-left: 576px;
+}
+.helo{
+    width: 90%;
+    height: 450px;
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+.helo img{
+   
+    opacity: 1;
+    border-radius: 100%;
+    height: 450px;
+}
+.price{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}

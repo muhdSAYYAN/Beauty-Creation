@@ -1,0 +1,191 @@
+@font-face {
+    font-family: rare;
+    src: url(./navfonts/Rare\ Essence\ -\ Demo.ttf);
+}
+@font-face {
+    font-family: ogg;
+    src: url(./navfonts/Ogg-Light-BF646c18fbb73f7.otf);
+}
+@font-face {
+    font-family: hillton;
+    src: url(./navfonts/hillton-1gjpe.otf);
+}
+@font-face {
+    font-family: rarescript;
+    src: url(./navfonts/rare-essence-demo.ttf);
+}
+@font-face {
+    font-family: british;
+    src: url(./navfonts/bristolcharleigh-qzmd2.otf);
+}
+
+:root{
+    --primary-color:rgb(250, 242, 242);
+    --secondary-color:rgb(149,51,94);
+
+}
+
+
+
+.navbar{
+width: 100%;
+height: 80px;
+background-color: var(--primary-color);
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid var(--secondary-color);
+}
+.navbar h1{
+    color: var(--secondary-color);
+    font-family: rare;
+    font-size: 50px;
+}
+.nav-option{
+    /* background-color: yellowgreen; */
+    width: 26%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    font-size: large;
+    font-weight: 350;
+    color: var(--secondary-color);
+    cursor: pointer;
+    
+}
+.shop-head{
+    /* font-weight: 400; */
+    /* height: 20px; */
+    /* font-size: 15px; */
+    /* background-color: yellow; */
+    /* position: relative; */
+    /* display: inline-block; */
+    
+}
+.shop-head:hover{
+    border-bottom: 1px solid var(--secondary-color);
+}
+.nav-option span{
+    /* height: 30px; */
+    font-size: medium;
+    font-weight: 350;
+    height: 30px;
+    /* background-color: yellow; */
+    
+}
+.nav-option span:hover{
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.end-op{
+    /* background-color: yellow; */
+    width: 27%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.end-op img{
+    width: 20px;
+    height: 20px;
+}
+.search-op{
+    width: 180px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.search-op input{
+    width: 150px;
+    background-color: var(--primary-color);
+    border: none;
+    height: 25px;
+    outline: none;
+}
+
+.search-op input::placeholder{
+   color: var(--secondary-color);
+}
+.search-op img{
+    width: 20px;
+    height: 20px;
+}
+.heading{
+    text-decoration: none;
+}
+
+.shop-div{
+    display: none;
+   
+}
+
+.shop-head:hover .shop-div{
+    display: block;
+    width: 100%;
+    height: 300px;
+    background-color:var(--primary-color);
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    top: 67px;
+    left: -5px;
+    
+    
+  
+}
+
+.shop-cont{
+    display: none;
+   
+
+}
+.shop-head:hover .shop-cont{
+    display: block;
+    width: 18%;
+    height: 250px;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.shopall{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    
+    
+}
+.shopall:hover{
+    border: 2px solid var(--secondary-color);
+    transition: 0.1s;
+}
+
+.shop-cont h5{
+    font-family: ogg;
+    font-size: 17px;
+}
+
+.countcart{
+    width: 15px;
+    height: 15px;
+    /* background-color: red; */
+    color: var(--secondary-color);
+    position: absolute;
+    margin-left: 3px;
+    top: 40px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 3px; */
+    font-size: small;
+}
